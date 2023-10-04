@@ -1,9 +1,9 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "title": "react",
+      "author": "typicode",
+      "id": 1
     },
     {
       "id": 2,
@@ -19,6 +19,21 @@
       "id": 4,
       "title": "json-server4",
       "author": "typicode"
+    },
+    {
+      "title": "javascript",
+      "author": "typicode",
+      "id": 6
+    },
+    {
+      "title": "javascript",
+      "author": "typicode",
+      "id": 7
+    },
+    {
+      "title": "javascript",
+      "author": "typicode",
+      "id": 8
     }
   ],
   "comments": [

@@ -4,6 +4,9 @@ import Poketmon from './page/Poketmon';
 import Movieinfo from './page/Movieinfo';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Jsonserver from './page/Jsonserver';
+import Contexttest from './page/Contexttest';
+import Withoutredux from './page/Withoutredux';
+import Appreducer from './page/Appreducer';
 function App() {
   // fetch('https://jsonplaceholder.typicode.com/users').then((res) => {
   //   console.log(res);
@@ -28,7 +31,13 @@ function App() {
                 <br />
                 <Link to="/Movieinfo">무비</Link>
                 <br />
-                <Link to="/Jsonserver">Jsonserver</Link>
+                <Link to="/Movieinfo">무비</Link>
+                <br />
+                <Link to="/Contexttest">컨택스트 테스트</Link>
+                <br />
+                <Link to="/Withoutredux">리덕스</Link>
+                <br />
+                <Link to="/Appreducer">리듀서</Link>
               </div>
             }
           ></Route>
@@ -36,6 +45,9 @@ function App() {
           <Route path="/Poketmon" element={<Poketmon />}></Route>
           <Route path="/Movieinfo" element={<Movieinfo />}></Route>
           <Route path="/Jsonserver" element={<Jsonserver />}></Route>
+          <Route path="/Contexttest" element={<Contexttest />}></Route>
+          <Route path="/Withoutredux" element={<Withoutredux />}></Route>
+          <Route path="/Appreducer" element={<Appreducer />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
