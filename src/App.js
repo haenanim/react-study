@@ -7,6 +7,7 @@ import Jsonserver from './page/Jsonserver';
 import Contexttest from './page/Contexttest';
 import Withoutredux from './page/Withoutredux';
 import Appreducer from './page/Appreducer';
+import Usereducertodo from './page/Usereducertodo';
 function App() {
   // fetch('https://jsonplaceholder.typicode.com/users').then((res) => {
   //   console.log(res);
@@ -38,6 +39,8 @@ function App() {
                 <Link to="/Withoutredux">리덕스</Link>
                 <br />
                 <Link to="/Appreducer">리듀서</Link>
+                <br />
+                <Link to="/Usereducertodo">리듀서</Link>
               </div>
             }
           ></Route>
@@ -48,6 +51,7 @@ function App() {
           <Route path="/Contexttest" element={<Contexttest />}></Route>
           <Route path="/Withoutredux" element={<Withoutredux />}></Route>
           <Route path="/Appreducer" element={<Appreducer />}></Route>
+          <Route path="/Usereducertodo" element={<Usereducertodo />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
